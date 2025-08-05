@@ -5,3 +5,4 @@ C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Triangle_Type_Identifie
 C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Triangle_Type_Identifier\bin\Debug\Triangle_Type_Identifier.pdb
 C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Triangle_Type_Identifier\obj\Debug\Triangle_Type_Identifier.exe
 C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Triangle_Type_Identifier\obj\Debug\Triangle_Type_Identifier.pdb
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Triangle_Type_Identifier\obj\Debug\Triangle_Type_Identifier.exe.config

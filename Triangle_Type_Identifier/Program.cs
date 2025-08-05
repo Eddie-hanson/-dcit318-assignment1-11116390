@@ -25,37 +25,53 @@ namespace Triangle_Type_Identifier
                 Console.Write("Side C: ");
                 string inputC = Console.ReadLine();
                 if (inputC.ToLower() == "exit") break;
-                double a = double.Parse(inputA);
-                double b = double.Parse(inputB);
-                double c = double.Parse(inputC);
 
-                if (a <= 0 || b <= 0 || c <= 0)
+                try
                 {
-                    Console.WriteLine("Side lengths must be positive numbers.");
-                    continue;
-                }
+                    double a = double.Parse(inputA);
+                    double b = double.Parse(inputB);
+                    double c = double.Parse(inputC);
 
-
-                if (a + b > c && a + c > b && b + c > a)
-                {
-                    if (a == b && b == c)
+                    if (a <= 0 || b <= 0 || c <= 0)
                     {
-                        Console.WriteLine("This is an Equilateral triangle.");
+                        Console.WriteLine("Side lengths must be positive numbers.");
+                        continue;
                     }
-                    else if (a == b || a == c || b == c)
+
+                    // Triangle Inequality Check
+                    if (a + b > c && a + c > b && b + c > a)
                     {
-                        Console.WriteLine("This is an Isosceles triangle.");
+                        if (a == b && b == c)
+                        {
+                            Console.WriteLine("This is an Equilateral triangle.");
+                        }
+                        else if (a == b || a == c || b == c)
+                        {
+                            Console.WriteLine("This is an Isosceles triangle.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("This is a Scalene triangle.");
+                        }
                     }
                     else
                     {
-                        Console.WriteLine("This is a Scalene triangle.");
+                        Console.WriteLine("The entered sides do not form a valid triangle.");
                     }
                 }
-                else
+                catch (FormatException)
                 {
-                    Console.WriteLine("The entered sides do not form a valid triangle.");
+                    Console.WriteLine("Invalid input. Please enter valid numeric values.");
                 }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"An unexpected error occurred: {ex.Message}");
+                }
+
+                Console.WriteLine(); 
             }
+
+            Console.WriteLine("Goodbye!");
         }
     }
 }
