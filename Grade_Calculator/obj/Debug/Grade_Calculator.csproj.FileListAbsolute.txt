@@ -1,0 +1,16 @@
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\bin\Debug\Grade_Calculator.exe.config
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\bin\Debug\Grade_Calculator.exe
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\bin\Debug\Grade_Calculator.pdb
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.AssemblyReference.cache
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\obj\Debug\Grade_Calculator.exe
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\obj\Debug\Grade_Calculator.pdb
+C:\Users\Mr Hanson\Desktop\programming_2\Learnings\Grade_Calculator\obj\Debug\Grade_Calculator.exe.config
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\bin\Debug\Grade_Calculator.exe.config
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\bin\Debug\Grade_Calculator.exe
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\bin\Debug\Grade_Calculator.pdb
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.AssemblyReference.cache
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\obj\Debug\Grade_Calculator.exe.config
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\obj\Debug\Grade_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\obj\Debug\Grade_Calculator.exe
+C:\Users\Mr Hanson\Desktop\-dcit318-assignment1-11116390\Grade_Calculator\obj\Debug\Grade_Calculator.pdb
