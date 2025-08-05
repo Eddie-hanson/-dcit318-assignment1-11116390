@@ -20,21 +20,37 @@ namespace Ticket_Price_Calculator
                     Console.WriteLine("Thank you for using the Ticket Price Calculator!");
                     break;
                 }
-                int age = int.Parse(input);
 
-                if (age < 0)
+                try
                 {
-                    Console.WriteLine("Age cannot be negative. Please try again.");
+                    int age = int.Parse(input);
+
+                    if (age < 0)
+                    {
+                        Console.WriteLine("Age cannot be negative. Please try again.");
+                    }
+                    else if (age <= 12 || age >= 65)
+                    {
+                        Console.WriteLine("Your ticket price is GHC7 (Discounted).");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Your ticket price is GHC10.");
+                    }
                 }
-                else if (age <= 12 || age >= 65)
+                catch (FormatException)
                 {
-                    Console.WriteLine("Your ticket price is GHC7 (Discounted).");
+                    Console.WriteLine("Invalid input. Please enter a valid number or type 'exit' to finish.");
                 }
-                else
+                catch (Exception ex)
                 {
-                    Console.WriteLine("Your ticket price is GHC10.");
+                    Console.WriteLine($"An unexpected error occurred: {ex.Message}");
                 }
+
+                Console.WriteLine(); 
             }
         }
-    }
+    
+}
+    
 }
